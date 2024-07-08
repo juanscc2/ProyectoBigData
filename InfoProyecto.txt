@@ -1,0 +1,15 @@
+Este conjunto de datos contiene detalles de los clientes de un banco y la variable objetivo es una variable binaria que refleja el hecho de si el cliente abandonó el banco (cerró su cuenta) o continúa siendo cliente.
+Número de fila: probablemente sea un identificador único para cada registro y no contribuye directamente al análisis.
+CustomerId: se puede utilizar para rastrear y diferenciar clientes individuales dentro del conjunto de datos.
+Apellido: Proporciona información sobre el apellido de cada cliente.
+CreditScore: Es un valor numérico que evalúa la solvencia de un individuo en función de su historial crediticio y comportamiento financiero.
+Geografía: Proporciona información sobre la distribución geográfica de los clientes, permitiendo realizar análisis basados ​​en factores regionales o nacionales.
+Género: clasifica a los clientes como hombres o mujeres, lo que permite un análisis basado en el género si es relevante para la predicción de abandono.
+Edad: representa la edad del cliente en años y se puede utilizar para analizar patrones y comportamientos relacionados con la edad.
+Antigüedad: normalmente representa la cantidad de años o meses que el cliente ha estado asociado con el banco.
+Saldo: Refleja la cantidad de dinero que hay en la cuenta bancaria del cliente en un momento determinado.
+NumOfProducts: Puede incluir diversas ofertas como cuentas de ahorro, préstamos, tarjetas de crédito, etc.
+HasCrCard: Es una variable binaria con valor 1 si el cliente posee una tarjeta de crédito y 0 en caso contrario.
+IsActiveMember: Es una variable binaria que indica si el cliente es miembro activo (1) o no (0) dentro del banco.
+Salario Estimado: Proporciona una aproximación del nivel de ingresos del cliente, que puede ser relevante para analizar el comportamiento de abandono.
+Salido: Indica si un cliente ha dado de baja (1) o no (0) del banco. Es la variable que pretendemos predecir utilizando las otras características.
